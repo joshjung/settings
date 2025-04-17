@@ -94,10 +94,27 @@
     "typescript.updateImportsOnPaste.enabled": true,
     "typescript.autoClosingTags": false,
     "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "eslint.format.enable": true,
+    "editor.defaultFormatter": "biomejs.biome",
     "eslint.quiet": true,
     "eslint.run": "onSave",
-    "eslint.enable": false
+    "eslint.enable": false,
+    "[typescript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "superImagePreview.excludeDirectoryNames": [],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "search.exclude": {
+      "**/*.code-search": false,
+      "**/bower_components": false,
+      "**/node_modules": false
+    },
+    "scss.scannerExclude": [
+      "**/.git"
+    ],
+    "notebook.defaultFormatter": "biomejs.biome",
+    "notebook.formatOnSave.enabled": true,
+    "json.format.enable": false,
+    "javascript.format.enable": false,
+    "typescript.format.enable": false
 }

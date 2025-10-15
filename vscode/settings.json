@@ -1,5 +1,4 @@
 {
-    "window.commandCenter": 1,
     "editor.tabSize": 2,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "cursor.composer.shouldAutoScrollToBottom": false,
@@ -118,5 +117,7 @@
     "javascript.format.enable": false,
     "typescript.format.enable": false,
     "typescript.preferences.preferTypeOnlyAutoImports": true,
-    "cursor.cpp.enablePartialAccepts": true
+    "cursor.cpp.enablePartialAccepts": true,
+    "editor.rulers": [80, 120],
+    "terminal.integrated.scrollback": 10000
 }
